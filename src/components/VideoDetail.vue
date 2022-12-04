@@ -1,6 +1,6 @@
 <template>
   <div v-if="video">
-    <div>
+    <div class="ratio ratio-16x9">
       <iframe :src="videoUrl" />
     </div>
     <div class="details">
